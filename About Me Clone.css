@@ -1,0 +1,42 @@
+.carousel-inner {
+    position: relative;
+    border: 3px solid goldenrod;
+    top: 8vh;
+    margin: 0 auto;
+    min-height: 85vh;
+    max-height: 85vh;
+    min-width: 70vw;
+    max-width: 70vw;
+}
+
+img.Bogota {
+    position: relative;
+    top: 15vh;
+    height: 50vh;
+    object-fit: contain;
+}
+
+img.Catedral {
+    position: relative;
+    top: 15vh;
+    height: 50vh;
+    object-fit: contain;
+}
+
+img.Gramps {
+    position: relative;
+    top: 15vh;
+    height: 50vh;
+    object-fit: contain;
+}
+
+img.Stockholm {
+    position: relative;
+    top: 15vh;
+    height: 50vh;
+    object-fit: contain;
+}
+
+.img-thumbnail {
+    border-color: black;
+}

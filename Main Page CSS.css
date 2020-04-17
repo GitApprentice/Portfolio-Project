@@ -1,0 +1,323 @@
+
+body, html{ 
+    height: 100%; 
+  } 
+  
+    
+  
+body { 
+    background: url("Portfolio Project Pictures/Main Page Background.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+} 
+
+@media only screen and (max-width: 576px) {
+  .About-Me {
+    width: 100px;
+  }
+
+  .About-Me:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .My-Programming-Story {
+    width: 100px;
+  }
+
+  .My-Programming-Story:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Goals {
+    width: 100px;
+  }
+
+  .Goals:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Skills {
+    width: 100px;
+  }
+
+  .Skills:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+  .About-Me {
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/About Me Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .About-Me:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .My-Programming-Story {
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/My Programming Story Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .My-Programming-Story:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Goals {
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/Goals Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .Goals:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Skills {
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/Skills Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  } 
+  
+  .Skills:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .About-Me {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/About Me Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .About-Me:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .My-Programming-Story {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/My Programming Story Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .My-Programming-Story:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Goals {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Goals Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .Goals:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Skills {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Skills Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  } 
+  
+  .Skills:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .About-Me {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/About Me Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .About-Me:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .My-Programming-Story {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/My Programming Story Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .My-Programming-Story:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Goals {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Goals Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .Goals:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Skills {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Skills Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }  
+
+  .Skills:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .About-Me {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/About Me Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .About-Me:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .My-Programming-Story {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/My Programming Story Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .My-Programming-Story:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Goals {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Goals Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .Goals:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+  .Skills {
+    top: 40vh;
+    width: 13vw;
+    height: 13vh;
+    background-image: url("Portfolio Project Pictures/Skills Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  }
+
+  .Skills:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #80ccff;
+  }
+
+}

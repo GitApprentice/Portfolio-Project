@@ -1,0 +1,52 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url('Portfolio Project Pictures/About Me Background.jpg');
+    background-position: center;
+    
+}
+
+.carousel-inner {
+    position: relative;
+    top: 8vh;
+    margin: 0 auto;
+    min-height: 85vh;
+    max-height: 85vh;
+    min-width: 60vw;
+    max-width: 60vw;
+}
+
+.carousel-item {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 15vh;
+    height: 53vh;
+    background-color: rgba(89, 89, 89, 0.4); 
+}
+
+.carousel-caption {
+    bottom: 1vh;
+}
+
+.carousel-control-prev {
+    top: 15vh;
+    left: 30vh;
+}
+
+.carousel-control-next {
+    top: 15vh;
+    right: 30vh;
+}
+
+.carousel-indicators {
+    bottom: 8vh;
+}
+
+
+
+
+
