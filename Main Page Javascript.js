@@ -7,7 +7,7 @@ $(".About-Me").click(function(){
 })
 
 $(".My-Programming-Story").hover(function(){
-
+    window.open('My Programming Story.html')
 })
 
 $(".My-Programming-Story").click(function(){
