@@ -1,0 +1,53 @@
+
+body, html {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#first {
+    border-bottom: 2px solid white;
+    background: url("Portfolio Project Pictures/Oslo Pic.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    color: white;
+}
+
+#first-text {
+    position: absolute;
+    background-color: rgba(73, 73, 73, 0.8);
+    box-shadow: 0 0 5px 4px black;
+    font-size: 2em;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#second {
+    border-bottom: 2px solid white;
+    background-color: grey;
+    height: 100vh;
+    color: white;
+}
+
+#third {
+    border-bottom: 2px solid white;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+#fourth {
+    background-color: darkblue;
+    height: 100vh;
+    color: white;
+}
