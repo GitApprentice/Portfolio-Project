@@ -7,11 +7,11 @@ $(".About-Me").click(function(){
 })
 
 $(".My-Programming-Story").hover(function(){
-    window.open('My Programming Story.html')
+    window.open("")
 })
 
 $(".My-Programming-Story").click(function(){
-    window.open("")
+    window.open("My Programming Story.html")
 })
 
 $(".Goals").hover(function(){
