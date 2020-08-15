@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outline {
+    border: 1px solid black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front1, .back1 {
+    border: 1px solid black;
+    width: 20vw;
+    height: 50vh;
+    margin: 20px;
+}
+
+.front2, .back2 {
+    border: 1px solid black;
+    width: 20vw;
+    height: 50vh;
+    margin: 20px;
+}
+
+.front3, .back3 {
+    border: 1px solid black;
+    width: 20vw;
+    height: 50vh;
+    margin: 20px;
+}
+
+.front4, .back4 {
+    border: 1px solid black;
+    width: 20vw;
+    height: 50vh;
+    margin: 20px;
+}
