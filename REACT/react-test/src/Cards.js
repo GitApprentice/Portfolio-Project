@@ -1,76 +1,78 @@
 import React from 'react';
 import './Cards.css';
-import ReactCardFlip from 'react-card-flip';
-
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 
 class Cards extends React.Component {
-    constructor() {
-      super();
-        this.state = {
-        isFlipped: false
-      };
-      this.handleClick = this.handleClick.bind(this);
-    }
-   
-    handleClick(e) {
-      e.preventDefault();
-      this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
-    }
-   
     render() {
       return (
-        <div class='outline'>    
-          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <div class='front1'>
-              This is the front of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-    
-            <div class='back1'>
-              This is the back of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-          </ReactCardFlip>
+        <div class='outline'>
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal" // horizontal or vertical
+            ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
+            // if you pass isFlipped prop component will be controlled component.
+            // and other props, which will go to div
+            >
+            <FrontSide style={{height:'50vh', width:'20vw', margin:'20px'}}>
+              RICK
+            </FrontSide>
+            <BackSide>
+              ROCKS
+            </BackSide>
+          </Flippy>
 
-          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <div class='front2'>
-              This is the front of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal" // horizontal or vertical
+            ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
+            // if you pass isFlipped prop component will be controlled component.
+            // and other props, which will go to div
+            >
+            <FrontSide style={{height:'50vh', width:'20vw', margin:'20px'}}>
+              RICK
+            </FrontSide>
+            <BackSide>
+              ROCKS
+            </BackSide>
+          </Flippy>
 
-            <div class='back2'>
-              This is the back of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-          </ReactCardFlip>
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal" // horizontal or vertical
+            ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
+            // if you pass isFlipped prop component will be controlled component.
+            // and other props, which will go to div
+            >
+            <FrontSide style={{height:'50vh', width:'20vw', margin:'20px'}}>
+              RICK
+            </FrontSide>
+            <BackSide>
+              ROCKS
+            </BackSide>
+          </Flippy>
 
-          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <div class='front3'>
-              This is the front of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-
-            <div class='back3'>
-              This is the back of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-          </ReactCardFlip>
-
-          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <div class='front4'>
-              This is the front of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-
-            <div class='back4'>
-              This is the back of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
-            </div>
-          </ReactCardFlip>
+          <Flippy
+            flipOnHover={false} // default false
+            flipOnClick={true} // default false
+            flipDirection="horizontal" // horizontal or vertical
+            ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
+            // if you pass isFlipped prop component will be controlled component.
+            // and other props, which will go to div
+            >
+            <FrontSide style={{height:'50vh', width:'20vw', margin:'20px'}}>
+              RICK
+            </FrontSide>
+            <BackSide>
+              ROCKS
+            </BackSide>
+          </Flippy>
         </div>  
-      )
+      );
     }
-  }
+}
 
 export default Cards;

@@ -5,21 +5,20 @@ body {
     justify-content: center;
 }
 
+
 .outline {
-    border: 1px solid black;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.front1, .back1 {
-    border: 1px solid black;
-    width: 20vw;
-    height: 50vh;
+.front1 {
+    width: 20%;
+    height: 50%;
     margin: 20px;
 }
-
+/*
 .front2, .back2 {
     border: 1px solid black;
     width: 20vw;
@@ -40,3 +39,4 @@ body {
     height: 50vh;
     margin: 20px;
 }
+*/
