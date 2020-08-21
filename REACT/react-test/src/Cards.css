@@ -3,6 +3,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #484848;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
 }
 
 
@@ -11,6 +16,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.front {
+    height:50vh;
+    width:20vw;
+    margin:20px;
+    padding:10px;
+    background-image:url('Missoula.jpg');
+    background-repeat:no-repeat;
 }
 
 .front1 {
