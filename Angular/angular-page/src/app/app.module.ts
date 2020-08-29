@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import {MatTabsModule} from '@angular/material/tabs';
+import { SkillsListComponent } from './skills-list/skills-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SkillsListComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
