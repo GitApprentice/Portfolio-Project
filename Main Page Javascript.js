@@ -19,7 +19,7 @@ $(".Goals").hover(function(){
 })
 
 $(".Goals").click(function(){
-    window.open("react-test")
+    window.open("https://gitapprentice.github.io/React-Portfolio/")
 })
 
 $(".Skills").hover(function(){
