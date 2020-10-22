@@ -27,5 +27,5 @@ $(".Skills").hover(function(){
 })
 
 $(".Skills").click(function(){
-    window.open("")
+    window.open("https://gitapprentice.github.io/Angular-Portfolio/")
 })
