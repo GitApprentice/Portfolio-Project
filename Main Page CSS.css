@@ -13,7 +13,14 @@ body {
 
 @media only screen and (max-width: 576px) {
   .About-Me {
-    width: 100px;
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/About Me Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
   }
 
   .About-Me:hover {
@@ -22,7 +29,14 @@ body {
   }
 
   .My-Programming-Story {
-    width: 100px;
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/My Programming Story Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
   }
 
   .My-Programming-Story:hover {
@@ -31,7 +45,14 @@ body {
   }
 
   .Goals {
-    width: 100px;
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/Goals Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
   }
 
   .Goals:hover {
@@ -40,9 +61,16 @@ body {
   }
 
   .Skills {
-    width: 100px;
-  }
-
+    top: 40vh;
+    width: 15vw;
+    height: 15vh;
+    background-image: url("Portfolio Project Pictures/Skills Folder Icon.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+  } 
+  
   .Skills:hover {
     cursor: pointer;
     box-shadow: 0 0 4px 2px #80ccff;
