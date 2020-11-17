@@ -1,50 +1,783 @@
 html, body {
-    min-height: 100%;
+    height: 100%;
 }
 
 body {
     background-image: url('Portfolio Project Pictures/About Me Background.jpg');
     background-position: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel {
+        width: 100vw;
+    }
+    
+    .carousel-inner {
+        height: 100vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .Gramps {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 55vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-caption {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-height: 600px) {
+    .carousel {
+        width: 100vw;
+    }
+    
+    .carousel-inner {
+        height: 100vh;
+    }
+
+    .carousel-item {
+    
+    }
+
+    .Bogota {
+        position: relative;
+        right: 170vw;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 100vh;
+        width: 140vw;
+        right: 15vw;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 100vh;
+        width: 130vw;
+        right: 15vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 140vw;
+        right: 22vw;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .carousel {
+        width: 100vw;
+    }
+    
+    .carousel-inner {
+        height: 100vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .Gramps {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 55vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-caption {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (min-height: 650px) {
+    .carousel {
+        top: 9vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        right: 120vw;
+        height: 90vh;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        right: 5vw;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 95vh;
+        width: 100vw;
+        right: 10vw;
+        bottom: 5vh;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 120vh;
+        width: 130vw;
+        right: 20vw;
+        bottom: 35vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel {
+        width: 100vw;
+    }
+    
+    .carousel-inner {
+        height: 100vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .Gramps {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 55vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        width: 60vw;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-caption {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 750px) {
+    .carousel {
+        top: 9vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        right: 120vw;
+        height: 90vh;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        right: 5vw;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 115vh;
+        width: 100vw;
+        right: 10vw;
+        bottom: 5vh;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 120vh;
+        width: 110vw;
+        right: 10vw;
+        bottom: 35vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel {
+        top: 9vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 145vh;
+        width: 90vw;
+        right: 5vw;
+        bottom: 13vh;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 155vh;
+        width: 85vw;
+        bottom: 15vh;
+        right: 2vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 125vh;
+        width: 60vw;
+        bottom: 35vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (min-height: 650px) {
+    .carousel {
+        top: 9vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        right: 60vw;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 130vh;
+        width: 90vw;
+        right: 2vw;
+        bottom: 5vh;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 135vh;
+        width: 85vw;
+        bottom: 15vh;
+        right: 2vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 120vh;
+        width: 100vw;
+        bottom: 35vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (min-height: 1000px) {
+    .carousel {
+        top: 15vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 70vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        right: 40vw;
+        height: 85vh;
+        width: 140vw;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 110vh;
+        width: 100vw;
+        right: 5vw;
+        bottom: 5vh;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 135vh;
+        width: 105vw;
+        bottom: 15vh;
+        right: 12vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 110vh;
+        width: 95vw;
+        right: 2vw;
+        bottom: 35vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-caption {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel {
+        top: 5vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 90vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+        right: 20vw;
+    }
+
+    .Catedral {
+        position: relative;
+        height: 145vh;
+        width: 90vw;
+        bottom: 5vh;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 155vh;
+        width: 85vw;
+        bottom: 15vh;
+        right: 2vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        height: 145vh;
+        width: 80vw;
+        bottom: 45vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 55px;
+        height: 55px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 55px;
+        height: 55px;
+    }
+
+    .carousel-caption {
+        font-size: 1.2em;
+    }
     
 }
 
-.carousel-inner {
-    position: relative;
-    top: 8vh;
-    margin: 0 auto;
-    min-height: 85vh;
-    max-height: 85vh;
-    min-width: 60vw;
-    max-width: 60vw;
+@media only screen and (min-width: 1200px) and (min-height: 725px) {
+    .carousel {
+        top: 5vh;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 90vh;
+    }
+
+    .carousel-item {
+        position: relative;
+        align-items: center;
+    }
+
+    .Bogota {
+        position: relative;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .Catedral {
+        position: relative;
+        margin: 0 auto;
+        height: 140vh;
+        width: 100vw;
+    }
+
+    .Gramps {
+        position: relative;
+        height: 155vh;
+        width: 100vw;
+        bottom: 15vh;
+        right: 5vw;
+    }
+
+    .Stockholm {
+        position: relative;
+        margin: 0 auto;
+        height: 145vh;
+        width: 100vw;
+        bottom: 45vh;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 55px;
+        height: 55px;
+    }
+
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 2vw;
+        border: 1px solid white;
+        background-color: black;
+        width: 55px;
+        height: 55px;
+    }
+
+    .carousel-caption {
+        font-size: 1.5em;
+    }
+
 }
 
-.carousel-item {
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    top: 15vh;
-    height: 53vh;
-    background-color: rgba(89, 89, 89, 0.4); 
-}
-
-.carousel-caption {
-    bottom: 1vh;
-}
-
-.carousel-control-prev {
-    top: 15vh;
-    left: 30vh;
-}
-
-.carousel-control-next {
-    top: 15vh;
-    right: 30vh;
-}
-
-.carousel-indicators {
-    bottom: 8vh;
-}
 
 
 
