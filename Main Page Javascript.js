@@ -11,7 +11,7 @@ $(".My-Programming-Story").hover(function(){
 })
 
 $(".My-Programming-Story").click(function(){
-    window.open("My Programming Story.html")
+    window.open("Goals.html")
 })
 
 $(".Goals").hover(function(){
