@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('Portfolio Project Pictures/Skills Page Background.jpg');
+    background-size: cover;
+}
+
+h3 {
+    position: absolute;
+    top: -2%;
+    font-size: 52px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(104, 104, 104);
+}
+
+.display-outline {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1%;
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+ul {
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 1px solid rgb(73, 73, 73);
+}
+
+li {
+    margin-bottom: 7%;
+    list-style-type: square;
+    font-size: 20px;
+    color: white;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+
