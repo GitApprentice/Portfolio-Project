@@ -3,18 +3,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url('Portfolio Project Pictures/LED background.jpg');
+  background-image: url('Portfolio Project Pictures/Home Page Background.jpg');
   background-size: cover;
 }
-
-/*.page-box {
-  position: relative;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-}*/
 
 .nav-box {
   position: absolute;
