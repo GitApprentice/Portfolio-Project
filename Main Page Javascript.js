@@ -21,5 +21,5 @@ $(".React").click(function(){
 })
 
 $(".Skills").click(function(){
-    window.open("Skills.html")
+    window.open("Experience.html")
 })
