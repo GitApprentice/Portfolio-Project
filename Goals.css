@@ -1,12 +1,19 @@
 @media screen and (max-width: 637px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -15,46 +22,48 @@
         justify-content: flex-start;
         align-items: center;
         width: 90%;
-        height: 90%;
+        height: 50%;
         perspective: 1200px;
-        overflow-x: scroll;
     }
 
     .card {
-        position: relative;
-        min-width: 150px;
-        width: 150px;
-        min-height: 240px;
-        height: 240px;
-        margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        background-color: transparent;
+        width: 225px;
+        height: 300px;
+        margin: 3%;
+        perspective: 1200px;
         cursor: pointer;
     }  
 
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -79,11 +88,11 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
         overflow-y: scroll;
     }
 
@@ -93,29 +102,41 @@
     }
 
     ::-webkit-scrollbar {
+        -webkit-height: 8px;
         height: 8px;
+        -webkit-width: 8px;
         width: 8px;
     }
 
     ::-webkit-scrollbar-thumb {
+        -webkit-background-color: rgb(136, 136, 136);
         background-color: rgb(136, 136, 136);
+        -webkit-border-radius: 6px;
         border-radius: 6px;
     }
 
     ::-webkit-scrollbar-track {
+        -webkit-background-color: rgb(22, 22, 22);
         background-color: rgb(22, 22, 22);
     }
 }
 
 @media screen and (min-width: 638px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -125,44 +146,46 @@
         align-items: center;
         width: 90%;
         height: 90%;
-        perspective: 1200px;
     }
 
     .card {
-        position: relative;
-        min-width: 150px;
+        background-color: transparent;
         width: 150px;
-        min-height: 240px;
         height: 240px;
         margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        perspective: 1200px;
         cursor: pointer;
-    }  
-
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    } 
+    
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -187,11 +210,11 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
         overflow-y: scroll;
     }
 
@@ -212,17 +235,25 @@
     ::-webkit-scrollbar-track {
         background-color: rgb(22, 22, 22);
     }
+
 }
 
 @media screen and (min-width: 900px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -232,44 +263,51 @@
         align-items: center;
         width: 90%;
         height: 90%;
-        perspective: 1200px;
     }
 
     .card {
-        position: relative;
-        min-width: 200px;
+        background-color: transparent;
         width: 200px;
-        min-height: 275px;
         height: 275px;
         margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        perspective: 1200px;
         cursor: pointer;
     }  
 
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card:hover {
+        width: 220px;
+        height: 295px;
+    }
+
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -293,11 +331,11 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
         overflow-y: scroll;
     }
 
@@ -308,14 +346,21 @@
 }
 
 @media screen and (min-width: 1206px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -325,42 +370,51 @@
         align-items: center;
         width: 90%;
         height: 90%;
-        perspective: 1200px;
     }
 
     .card {
-        position: relative;
+        background-color: transparent;
         width: 325px;
         height: 425px;
         margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        perspective: 1200px;
         cursor: pointer;
     }  
 
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card:hover {
+        width: 345px;
+        height: 445px;
+    }
+
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -384,11 +438,12 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
+        overflow-y: scroll;
     }
 
     .card-description {
@@ -398,14 +453,21 @@
 }
 
 @media screen and (min-width: 1500px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -415,42 +477,51 @@
         align-items: center;
         width: 90%;
         height: 90%;
-        perspective: 2000px;
     }
 
     .card {
-        position: relative;
-        width: 500px;
-        height: 675px;
+        background-color: transparent;
+        width: 350px;
+        height: 475px;
         margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        perspective: 2000px;
         cursor: pointer;
     }  
 
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card:hover {
+        width: 370px;
+        height: 495px;
+    }
+
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -460,6 +531,7 @@
 
     div h2 {
         text-align: center;
+        top: -2%;
         font-size: 1.7em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -474,11 +546,12 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
+        overflow-y: scroll;
     }
 
     .card-description {
@@ -487,15 +560,22 @@
     }
 }
 
-@media screen and (min-width: 2500px) {    
+@media screen and (min-width: 2500px) {  
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         background-color: rgb(39, 39, 39);
     }
 
@@ -505,42 +585,51 @@
         align-items: center;
         width: 90%;
         height: 90%;
-        perspective: 2000px;
     }
 
     .card {
-        position: relative;
-        width: 550px;
-        height: 800px;
+        background-color: transparent;
+        width: 500px;
+        height: 675px;
         margin: 1%;
-        box-shadow: 0 2px 15px;
-        transition: transform 2s;
-        transform-style: preserve-3d;
+        perspective: 2000px;
         cursor: pointer;
     }  
 
-    .card:hover {
-        box-shadow: 0 3px 20px rgb(141, 141, 141);
+    .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 2s;
+        transition: transform 2s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        box-shadow: 0 2px 15px;
     }
 
-    .card.is-flipped {
+    .card:hover {
+        width: 520px;
+        height: 695px;
+    }
+
+    .card.is-flipped .card-inner{
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 
-    .card-face {
+    .card-front-face, .card-back-face {
         position: absolute;
         width: 100%;
         height: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .card-front-face {
-        z-index: 2;
         background-color: lightgray;
     }
 
     div .image {
-        box-sizing: border-box;
         padding: 5%;
         min-width: 100%;
         min-height: 45%;
@@ -551,7 +640,7 @@
     div h2 {
         position: relative;
         text-align: center;
-        font-size: 1.7em;
+        font-size: 1.8em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -565,15 +654,16 @@
     }
 
     .card-back-face {
-        z-index: 1;
         background-color: lightgray;
         padding: 5%;
-        box-sizing: border-box;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        -webkit-overflow-y: scroll;
+        overflow-y: scroll;
     }
 
     .card-description {
-        font-size: 18px;
+        font-size: 19px;
         font-family: 'Times New Roman', Times, serif;
     }
 }    
