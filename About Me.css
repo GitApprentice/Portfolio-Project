@@ -1,8 +1,16 @@
 @media screen and (max-width: 633px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(68, 68, 68);
     }
 
@@ -69,10 +77,18 @@
 }
 
 @media screen and (min-width: 633px) and (max-height: 575px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(68, 68, 68);
     }
 
@@ -139,10 +155,18 @@
 }
 
 @media screen and (min-width: 633px) and (min-height: 575px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+
     body {
         display: flex;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(68, 68, 68);
     }
 
@@ -210,8 +234,19 @@
 }
 
 @media screen and (min-width: 900px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+
     body {
-        height: 100vh;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-color: rgb(68, 68, 68);
     }
 
     .carousel-inner {
@@ -280,8 +315,19 @@
 } 
 
 @media screen and (min-width: 1500px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+
     body {
-        height: 100vh;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-color: rgb(68, 68, 68);
     }
 
     .carousel-inner {
