@@ -3,60 +3,62 @@
     <head>
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="About Me.css" type="text/css">
     </head>
     <body>     
-              <div id="carouselExampleIndicators" class="d-flex carousel slide carousel-fade" data-ride="carousel" data-interval="7000">                
-                <div class="carousel-inner d-flex" role="listbox"> 
-                    <div class="carousel-item active">
-                      <img class="Traveling d-block w-100" src="Portfolio Project Pictures/Bogota - Edited.jpg">
-                      <div class="carousel-caption d-block">
-                        <p class="caption-text">
-                          Travel is one of my biggest passions. Traveling to a new city or new culture is
-                          something that can't be explained, only experienced. (Photo is from my trip to Bogotá, Colombia)
-                        </p>
-                      </div>
-                    </div> 
-                    <div class="carousel-item">
-                      <img class="Cooking d-block w-100" src="Portfolio Project Pictures/Cooking.jpg">
-                      <div class="carousel-caption d-block">
-                        <p class="caption-text">
-                          I love to cook. I love trying to cook different types of foods and creating amazing meals out of them. 
-                        </p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="Fitness d-block w-100" src="Portfolio Project Pictures/Fitness.jpg">
-                      <div class="carousel-caption d-block">
-                        <p class="caption-text">
-                          I strive to be the healthiest I can be. Working out, eating healthy, and following a good routine are
-                          all keys to this.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="Learning d-block w-100" src="Portfolio Project Pictures/Learning.jpg">
-                      <div class="carousel-caption d-block">
-                        <p class="caption-text">
-                          All nerdy things intrigue me. I love a good documentary, podcast, or book about a huge viarety of
-                          different topics. 
-                        </p>
-                      </div>  
-                    </div>                    
-                    <a class="carousel-control-prev d-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Prev</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>                                        
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="5000"> 
+            <div class="carousel-inner"> 
+                <div class="carousel-item active">
+                  <img  src="Portfolio Project Pictures/Bogota - Bootstrap.jpg" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p>
+                      Travel is one of my biggest passions. I love the experience of landing in a new country
+                      and sensing everything new about the culture. I prefer to travel solo and stay in hostels
+                      to meet other solo travelers. Only 6 countries visited so far, but hopefully that will
+                      change soon.
+                    </p>
+                  </div>
                 </div> 
-              </div>              
-      
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>         
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>    
+                <div class="carousel-item">
+                  <img src="Portfolio Project Pictures/Cooking - Bootstrap.jpg" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p>
+                      I do a lot of cooking. During the lockdowns I used that time to experiment with cooking
+                      some more difficult dishes. There are still some that I would like to try.  
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Portfolio Project Pictures/Fitness - Bootstrap.jpg" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <p>
+                      Staying healthy is very important to me. More than just working out I try and live a 
+                      healthy lifestyle. That includes exercise, eating well, getting good sleep, and other
+                      things to boost the quality of life. 
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Portfolio Project Pictures/Learning - Bootstrap.jpg" class="d-block w-100"> 
+                  <div class="carousel-caption">
+                    <p>
+                      I've always been interested in learning a lot about a variety of topics. That's included 
+                      watching YouTube, documentaries, podcasts, and reading.
+                    </p>
+                  </div> 
+                </div>                    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>                                        
+            </div> 
+        </div>              
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
     </body>
 </html>
